@@ -1,0 +1,204 @@
+body {
+	position: relative; 
+}
+
+.middle {
+  	margin-top: auto;
+  	margin-bottom: auto;
+}
+
+.img-responsive {
+	max-height: auto;
+}
+
+.padding-left-10px {
+	padding-left: 10px;
+}
+
+h1 {
+	font-style: italic;
+}
+
+.style-padding {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+/* 
+	Navbar
+*/
+nav {
+	background-color: #ffffff !important;	
+
+}
+
+nav a {
+	font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #004289 !important;
+}
+
+nav .navbar-brand {
+	padding-left: 5%;
+}
+
+nav .navbar-collapse {
+	padding-right: 5%;
+}
+
+.dropdown-menu {
+	display: block;
+	visibility: hidden;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: .5s ease all;
+}
+
+.dropdown-menu.show {
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0px);
+	transition:.5s ease all;
+}
+
+/* 
+	============================= Section Intro ==============================
+*/
+.carousel-item {
+
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* 
+	============================= Section Merek ==============================
+*/
+#merek {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	height: auto;
+	color: #004289;
+	background-color: #fff;
+}
+
+#merek .card {
+	height: 200px;
+	margin-top: 10px;	
+}
+
+
+/* 
+	============================= Section Produk Baru ==============================
+*/
+#baru {
+	padding-top:70px;
+	color: #004289;
+	background-color: #fff;
+}
+
+#baru .card {
+	height: 450px;
+	margin-top: 10px;
+}
+
+#baru .card .card-header {
+	background: #fff;
+	height: 300px;
+}
+
+#baru .card .card-header img {
+	max-height: 300px;
+	width: 100%;
+}
+
+#baru .card .card-body p {
+	font-size: 18px;
+}
+
+
+/* 
+	============================= Section Produk Bekas ==============================
+*/
+#bekas {
+	padding-top:70px;
+	color: #004289;
+	background-color: #fff;
+}
+
+#bekas .card {
+	height: 450px;
+	margin-top: 10px;
+}
+
+#bekas .card .card-header {
+	background: #fff;
+	height: 300px;
+}
+
+#bekas .card .card-header img {
+	max-height: 300px;
+	width: 100%;
+}
+
+#bekas .card .card-body p {
+	font-size: 18px;
+}
+
+
+/* 
+	============================= Section Alamat ==============================
+*/
+#alamat {
+	padding-top:70px;
+	padding-bottom: 30px;
+	color: #004289;
+	background-color: #fff;
+}
+
+#alamat .info {
+    color: #283d50;
+}
+
+#alamat .info i {
+    font-size: 32px;
+    color: #007bff;
+    float: left;
+    line-height: 1;
+}
+
+#alamat .info p {
+    padding: 0 0 10px 36px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+
+/* 
+	============================= Section Kontak ==============================
+*/
+#kontak {
+	padding-top:50px;
+	color: #fff;
+	background-color: #003ad9;
+}
+
+#kontak h2 {
+	font-style: italic;
+}
+
+#kontak a{
+	color: #fff !important;
+}
+
+#kontak ul {
+    list-style: none;
+    padding-left: 0;
+}​
