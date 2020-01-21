@@ -207,7 +207,14 @@ nav .navbar-collapse {
 	============================= Section Kredit ==============================
 */
 #kredit {
-	padding-top:50px;
-	color: #fff;
-	background-color: #003ad9;
+	background-color: #fff;
+}
+
+#kredit .text-center {
+	color: #004289;
+}
+
+#kredit .text-center a {
+	color: #004289;
+	font-style: italic;	
 }
